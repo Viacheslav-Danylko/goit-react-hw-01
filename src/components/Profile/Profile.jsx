@@ -6,22 +6,22 @@ const Profile = ({ name, tag, location, image, stats }) => {
       <div className={s.wrapper}>
         <img src={image} alt={name} className={s.avatar} />
         <p className={s.name}>{name}</p>
-        <p className="description">{tag}</p>
-        <p className="description">{location}</p>
+        <p className={s.description}>{tag}</p>
+        <p className={s.description}>{location}</p>
       </div>
 
       <ul className={s.stats}>
         <li className={s.item}>
-          <span className="label">Followers</span>
-          <span className="quantity">{stats.followers}</span>
+          <span className={s.label}>Followers</span>
+          <span className={s.quantity}>{stats.followers}</span>
         </li>
         <li className={s.item}>
-          <span className="label">Views</span>
-          <span className="quantity">{stats.views}</span>
+          <span className={s.label}>Views</span>
+          <span className={s.quantity}>{stats.views}</span>
         </li>
         <li className={s.item}>
-          <span className="label">Likes</span>
-          <span className="quantity">{stats.likes}</span>
+          <span className={s.label}>Likes</span>
+          <span className={s.quantity}>{stats.likes}</span>
         </li>
       </ul>
     </div>
