@@ -12,6 +12,7 @@
   flex-direction: column;
   align-items: center;
   gap: 10px;
+  width: 600px;
 }
 
 .avatar {
@@ -54,15 +55,16 @@
 .item {
   display: flex;
   flex-direction: column;
-  flex: 1;
+  align-items: center;
+  justify-content: center;
   background-color: #d3d3d3;
   text-align: center;
-  padding: 20px;
-  border-right: 1px solid #ccc;
-  align-self: center;
+  padding: 10px 0;
   border-right: 1px solid gray;
+  flex: 1;
 }
 
+/* Видалити правий бордер у останньому елементі */
 .item:last-child {
   border-right: none;
 }
