@@ -17,7 +17,8 @@
   width: 210px;
   height: 210px;
   border-radius: 50%;
-  background-color: black;
+  background-color: blackgray;
+  border: #ccc solid 2px;
 }
 
 .name {
