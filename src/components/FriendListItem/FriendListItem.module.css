@@ -1,0 +1,26 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.status {
+  font-size: 25px;
+}
+
+.online {
+  color: green;
+}
+
+.offline {
+  color: red;
+}
+.img {
+  width: 70px;
+}
+.friendName {
+  font-size: 35px;
+  font-weight: 600;
+  color: black;
+}
